@@ -1,0 +1,50 @@
+/*
+CSS file used by the application
+ */
+
+/* Centers the "Map Key" text, which is a <p> (paragraph) tag inside the BuildingList component, and has an
+ id of "map-key". Also makes the text bigger and bold. */
+#map-key {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* This syntax means "any <button> elements inside something with ID "building-viewer" - the 2px is for above and
+ below the button, the 5px is the left and right sides. This prevents the buttons from being
+ squished right next to each other. */
+#building-viewer button {
+    margin: 2px 5px;
+}
+
+/* Centers the "List of Buildings" text, which is in a <p> (paragraph) tag inside the app component, and has an
+ID of "app-title". Also makes the text bigger, bold, and adds some space around the title. */
+#building-header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* Aligns the content (text and text box) in the center of the div (or any component) with ID "building-list", and creates
+a margin so things aren't squished together.*/
+#building-list {
+    text-align: center;
+    margin: 5px;
+}
+
+/* This syntax means "any <button> elements inside something with ID "building-list"" - the 2px is for above and
+ below the button, the 5px is the left and right sides. This prevents the buttons from being
+ squished right next to each other. */
+#building-list button {
+    margin: 2px 5px;
+}
+
+/* Centers the "Campus Pathfinding!" text, which is in a <p> (paragraph) tag inside the app component, and has an
+ID of "app-title". Also makes the text bigger, bold, and adds some space around the title. */
+#app-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
